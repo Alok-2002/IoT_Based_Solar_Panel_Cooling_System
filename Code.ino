@@ -99,7 +99,6 @@ void loop() {
   client.loop();
   Blynk.run();
 
-  // Sensor Readings
   ds18b20.requestTemperatures();
   panelTemp = ds18b20.getTempCByIndex(0);
   float envTemp = dht.readTemperature();
@@ -114,7 +113,6 @@ void loop() {
     return;
   }
 
-  // Pump Control Logic
   if (panelTemp > 25.0) {
     digitalWrite(RELAY_PIN, HIGH);
     pumpOn = true;
@@ -123,7 +121,6 @@ void loop() {
     pumpOn = false;
   }
 
-  // Data Send
   publishToAWS(panelTemp, envTemp, humidity, pumpOn, voltage, current, power);
   sendToBlynk(panelTemp, envTemp, humidity, pumpOn, voltage, current, power);
 
