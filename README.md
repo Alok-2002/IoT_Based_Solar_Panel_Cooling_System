@@ -158,8 +158,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to reach out:
 
-- 📧 alok.sharma@example.com
-- 💼 LinkedIn: [linkedin.com/in/alok-sharma](https://linkedin.com/in/alok-sharma)
+- 📧 Mail : [Alok Sharma](mailto:sharmaalok02gwl@gmail.com)
+- 💼 LinkedIn: [Alok Sharma](https://linkedin.com/in/alok-sharma2002)
 
 ---
 
